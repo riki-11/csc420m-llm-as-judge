@@ -1,6 +1,8 @@
+from langchain_core.messages import HumanMessage
+from tqdm import tqdm
+
 import json
 import re
-from langchain_core.messages import HumanMessage
 
 def format_training_batches(df, batch_size=10):
     """
@@ -68,13 +70,15 @@ def evaluate_training_batches(batches, llm):
     """
     all_evaluations = []
 
-    for prompt_text, batch_rows in batches:
+
+
+    for batch_idx, (prompt_text, batch_rows) in tqdm(enumerate(batches),
+                                                     total=len(batches),
+                                                     desc='Processing Batches',
+                                                     unit='batch'):
         try:
-            # FIX: Wrap the prompt text in a HumanMessage object
             message = HumanMessage(content=prompt_text)
-            response = llm.invoke([message])  # Pass as a list of messages
-            
-            # Extract the content from the response
+            response = llm.invoke([message])  
             response_content = response.content
             
             # Parse the JSON response
@@ -96,6 +100,8 @@ def evaluate_training_batches(batches, llm):
 
                 all_evaluations.append(evaluation)
 
+            tqdm.write(f"Batch {batch_idx + 1}: {len(parsed)} items processed")   
+
         except json.JSONDecodeError as e:
             print(f"JSON parsing error: {e}")
             print(f"Response content: {response.content[:500]}...")
@@ -113,25 +119,3 @@ def evaluate_training_batches(batches, llm):
 
     return all_evaluations
 
-
-def clean_json_response(response_content):
-    """
-    Clean the response content to extract valid JSON from markdown code blocks
-    """
-    # Remove markdown code blocks if present
-    if response_content.strip().startswith('```'):
-        # Extract content between ```json and ``` or between ``` and ```
-        patterns = [
-            r'```json\s*\n(.*?)\n```',  # ```json ... ```
-            r'```\s*\n(.*?)\n```',      # ``` ... ```
-            r'```json(.*?)```',         # ```json...``` (no newlines)
-            r'```(.*?)```'              # ```...``` (no newlines)
-        ]
-        
-        for pattern in patterns:
-            match = re.search(pattern, response_content, re.DOTALL)
-            if match:
-                return match.group(1).strip()
-    
-    # If no code blocks, return as is
-    return response_content.strip()
