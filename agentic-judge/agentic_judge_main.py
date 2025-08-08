@@ -4,7 +4,7 @@ from tqdm import tqdm
 import json
 import re
 
-def format_training_batches(df, batch_size=10):
+def format_training_batches(df, batch_size):
     """
     Splits the dataframe into batches and formats each batch for evaluation prompts.
 
@@ -24,7 +24,7 @@ def format_training_batches(df, batch_size=10):
             "You are evaluating English-to-Filipino translations based on three criteria:",
             "1. Adequacy: Does the Filipino translation preserve the meaning of the original sentence?",
             "2. Fluency: Is it natural, smooth, and grammatically correct to be easily understood by a native speaker?",
-            "3. Lexical Choice: Are the words contextually accurate and culturally approrpiate?",
+            "3. Lexical Choice: Are the words contextually accurate and culturally appropriate?",
             "",
             "Please provide scores from 1-5, with 1 being the lowest and 5 being the highest, along with reasoning for each.",
             "Respond ONLY with a valid JSON array. Do not use markdown code blocks (```). Do not include any explanations, formatting, or text outside of the JSON. Start your response directly with [ and end with ]."
@@ -81,8 +81,15 @@ def evaluate_training_batches(batches, llm):
             response = llm.invoke([message])  
             response_content = response.content
             
-            # Parse the JSON response
-            parsed = json.loads(response_content)
+            print(f"Response Metadata: {response.usage_metadata}")
+
+            # print(f"RAW JSON Content: {response_content}")
+
+            # Clean and Parse the JSON response
+            cleaned_json = clean_json_response(response_content)
+            parsed = json.loads(cleaned_json)
+
+            # print(f"Cleaned JSON content: {json}")
 
             for result in parsed:
                 item_index = result.get("item_num", 1) - 1 
@@ -119,3 +126,34 @@ def evaluate_training_batches(batches, llm):
 
     return all_evaluations
 
+
+def clean_json_response(response_content):
+    """
+    Cleans LLM output by removing markdown code blocks and fixes common JSON issues.
+    
+    Args:
+        response_content (str): Raw string output from the LLM.
+        
+    Returns:
+        str: Cleaned JSON string ready for json.loads().
+    """
+    import re
+
+    # Strip leading/trailing whitespace
+    text = response_content.strip()
+
+    if response_content.strip().endswith("..."):
+        print("⚠️ Warning: Truncated response detected. Reduce batch size or prompt verbosity.")
+
+    # Remove markdown code block fences like ```json ... ```
+    if text.startswith("```json"):
+        text = re.sub(r"^```json", "", text)
+    if text.startswith("```"):
+        text = re.sub(r"^```", "", text)
+    if text.endswith("```"):
+        text = re.sub(r"```$", "", text)
+
+    # Optional: remove trailing commas, which are illegal in JSON
+    text = re.sub(r",\s*([}\]])", r"\1", text)
+
+    return text.strip()
