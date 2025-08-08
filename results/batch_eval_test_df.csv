@@ -1,0 +1,362 @@
+English,Filipino,Rating,Remarks 1,Remarks 2,pred_raw,pred_rating
+The children laughed and played under the afternoon sun.,Ang mga bata ay nagtawanan at naglaro sa ilalim ng hapon na araw.,4,"Accurate, fluent, and natural translation. Captures the tone and meaning well.","Just slight error due to the literal translation of the ""afternoon sun"" to ""hapon na araw"". Afternoon sun means the Sun during the afternoon","Closest example(s):
+- ""The sun will rise again tomorrow. Filipino Translation: Sisikat muli ang araw bukas."" (Similar sentence structure and straightforward translation)
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+She took a break to gather her thoughts.,Nagpahinga siya para mag-isip-isip.,4,"The translation is accurate. It was able to capture the meaning of the idiom ""gather her thoughts"", instead of translating it literally to ""kumuha ng ideya""",The translation would have been better if the translation also captured the gender indicated by the pronoun.,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally in Filipino.
+Lexical Choice: 5 - The words used are appropriate and common in Filipino.",5
+The algorithm efficiently identifies patterns in large datasets.,Mabisang kinikilala ng algoritmo ang mga pattern sa malalaking dataset.,3,"The translation of ""identifies"" as ""kinikilala"" in the context of the sentence is not very accurate. The source text was translated literally.",The translation would have been better if the model didn't translated very literally.,"Closest example(s):
+- ""English Sentence: Large datasets require specialized tools for effective processing and analysis.
+Filipino Translation: Nangangailangan ng mga espesyal na pamaraan ang mga malalaking dataset para sa epektibong pagproseso at pagsusuri.""
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and reads naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and commonly used in technical contexts.",5
+Data normalization helps improve model performance.,Tumutulong sa pagpabuti ng model ang normalisasyon ng datos,5,The translated text is natural and captures the entire essence of the source text,"The translation didn't literally translated the text, and the model was able to capture the relationship between data normalization and model performance.","Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence is grammatically correct and flows naturally.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.
+Overall Rating: 5
+Adequacy: 5 - Accurately reflects the original meaning.
+Fluency: 5 - Reads naturally in Filipino.
+Lexical Choice: 5 - Appropriate word choices.",5
+alam mo ma'am masaya naman topics natin sa philosophy inaantok lang talaga ko kasi ikaw nagdidiscuss,"You know, ma'am, we have a lot of fun philosophy topics. I'm just really sleepy in what you're discussing.",4,"flawed translation is close, but failed to translate that the cause of antok is the ma'am and not the topic.",None,"English Sentence: alam mo ma'am masaya naman topics natin sa philosophy inaantok lang talaga ko kasi ikaw nagdidiscuss
+Filipino Translation: You know, ma'am, we have a lot of fun philosophy topics. I'm just really sleepy in what you're discussing.
+Closest example(s): None. This is the first example with mixed languages.
+Overall Rating: 1
+Adequacy: 1 - The translation is completely backwards. It translates the Filipino to English instead of the other way around.
+Fluency: 1 - The English is not fluent because it's supposed to be a translation *into* Filipino.
+Lexical Choice: 1 - All the lexical choices are wrong because it's translating the wrong way.",1
+It's raining cats and dogs.,Umuulan ng pusa at aso.,1,"Literal translation of an idiom, doesn't make sense in Filipino.",Fails to capture the idiomatic meaning; sounds nonsensical.,"Closest example(s): None
+
+Overall Rating: 1
+Adequacy: 1 - The translation is literal and doesn't convey the idiomatic meaning of the English sentence. It literally translates to ""It's raining cats and dogs,"" which is nonsensical.
+Fluency: 5 - The Filipino sentence is grammatically correct.
+Lexical Choice: 1 - While the words themselves are correct, they are used in a way that doesn't make sense in Filipino. The phrase is not an idiom in Filipino.",1
+The party of the first part shall not be held liable for any unforeseen damages.,Ang partido ng unang bahagi ay hindi mananagot para sa anumang hindi inaasahang pinsala.,4,"Accurate and understandable, good for formal/legal context.","Effectively conveys legal terminology, correct but a bit stiff.","Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and reads naturally in Filipino.
+Lexical Choice: 5 - The vocabulary used is appropriate for the legal context.",5
+Thank you for coming to the event.,Salamat sa pagpunta sa kaganapan.,5,"Perfect, natural, and accurate.","Excellent, natural, and idiomatic translation.","Closest example(s):
+- English Sentence: Thank you for your hard work.
+Filipino Translation: Salamat sa iyong pagsisikap.
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the English sentence.
+Fluency: 5 - The Filipino sentence is natural and grammatically correct.
+Lexical Choice: 5 - The words used are appropriate and common in Filipino. ""Kaganapan"" is a good translation for ""event"".",5
+"Despite her exhaustion, she finished the report before the deadline.","Sa kabila ng kanyang pagod, natapos niya ang ulat bago ang deadline.",5,"Excellent, accurate, and flows well.","Fluent, accurate, and retains original meaning.","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+That designer bag costs an arm and a leg.,Napakamahal ng designer bag na 'yan.,5,"Accurate, Fluent, Coherent, Complete, and captures the meaning of the idiomatic expression.","Complete, and sounds natural. Captures the meaning well.","Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the idiom ""costs an arm and a leg"" by using the phrase ""napakamahal,"" which means ""very expensive.""
+Fluency: 5 - The sentence is fluent and natural in Filipino.
+Lexical Choice: 5 - The lexical choices are appropriate and commonly used. The use of ""na 'yan"" to refer to ""that"" is also natural.",5
+"I didn’t want to go to the dentist, but I had to bite the bullet and get it over with.","Ayoko sanang pumunta sa dentista, pero kailangan kong tiisin ito para matapos na.",4,"Complete, and accurately translates the idiomatic expression, with slight errors in tenses. The translation doesn't capture that the event was already done in the past. ",Good translation but conjugation is incorrect,"Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the idiom ""bite the bullet"" in a culturally appropriate way.
+Fluency: 5 - The sentence is natural and grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and convey the intended meaning effectively.",5
+Mark accidentally let the cat out of the bag about the surprise trip.,Hindi sinasadyang nailabas ni Mark ang pusa mula sa maleta tungkol sa surprise trip.,3,"Complete, and gramatically correct. However, the idiomatic expression was translated literally which loses the original intent of the sentence.",Idiom was not translated correctly,"Closest example(s): None
+
+Overall Rating: 3
+Adequacy: 3 - The translation is not adequate because it literally translates the idiom ""let the cat out of the bag,"" which doesn't make sense in Filipino. The meaning is understood, but it's not the correct way to express it.
+Fluency: 5 - The sentence is grammatically correct and flows naturally.
+Lexical Choice: 3 - The lexical choice is poor because it's a literal translation of an idiom. A better choice would be a Filipino idiom or phrase that conveys the same meaning of revealing a secret.",3
+I won’t be able to attend the meeting later because I’m feeling under the weather.,Hindi ako makakadalo sa meeting mamaya dahil masama ang pakiramdam ko.,5,"Accurate, Fluent, Coherent, Complete, and captures the meaning of the idiomatic expression.",Complete and grammatically correct,"Closest example(s):
+- English Sentence: I'm feeling under the weather.
+Filipino Translation: Masama ang pakiramdam ko.
+- English Sentence: The meeting will start at 10 AM sharp.
+Filipino Translation: Magsisimula ang pulong ng 10 AM sakto.
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and natural in Filipino. The use of ""makakadalo"" is appropriate for ""won't be able to attend.""",5
+Darkness is not heresy. It lies within us all.,Hindi kasalanan ang kadiliman. Nagsisinungaling ito sa loob natin.,2,"flawed translation takes ""lies"" as literal ""being untruthful"" or ""nagsisinungaling""",None,"Closest example(s): None.
+
+Overall Rating: 3
+Adequacy: 3 - The first part is correct. However, ""Nagsisinungaling ito sa loob natin"" is not an accurate translation of ""It lies within us all."" It implies deception rather than inherent existence.
+Fluency: 5 - The Filipino sentence is grammatically correct and flows naturally.
+Lexical Choice: 3 - ""Nagsisinungaling"" (lying) is not the correct word to convey the meaning of ""lies within."" A better choice would be something like ""nasa loob"" or ""matatagpuan sa.""",3
+This would be easier if blood came in more colours.,Ito ay magiging mas madali kung ang dugo ay dumating sa mas maraming kulay.,2,"flawed translation takes ""came in more colors"" literally",None,"Closest example(s): None
+
+Overall Rating: 4
+Adequacy: 4 - The meaning is mostly preserved, but the phrasing is a bit awkward. ""Dumating sa mas maraming kulay"" sounds unnatural.
+Fluency: 3 - The sentence structure is a bit too literal and doesn't flow well in Filipino.
+Lexical Choice: 4 - ""Dumating"" isn't the best word choice here.",4
+"This guy right here is Shadow, and he's kinda my biggest rival. He's also a real buzz-kill.","Ang lalaking ito dito ay si Shadow, at siya ang aking pinakamalaking karibal. Isa rin siyang totoong buzz-kill.",1,"""Ang lalaking ito dito"" should not have ""dito""","buzz-kill is not translated. also ""totoong buzzkill"" is too litteral.","Closest example(s):
+- Filipino Translation: Yang nakikita niyong iyan, siya si Shadow. Siya rin ang pinakahigpit kong karibal. At panira rin siya ng trip.
+
+Overall Rating: 3
+Adequacy: 4 - The translation is understandable and conveys the general meaning. However, it's a bit too literal.
+Fluency: 3 - The sentence structure is a bit awkward in Filipino. ""Ang lalaking ito dito"" is not the most natural way to say ""This guy right here.""
+Lexical Choice: 2 - Keeping ""buzz-kill"" is not ideal. There are better Filipino equivalents that would make the sentence flow more naturally and be more culturally appropriate.",3
+Stealth is not your thing. But it's adorable you're willing to try.,Ang pagnanakaw ay hindi bagay sa iyo. Ngunit ito ay kaibig-ibig na handa kang subukan.,1,"""sumubok"" might be better than ""subukan"" in this context","Changing adorable to ""nakakabilib"" (impressive) changes the tone for this line. Rouge calling Knuckles ""cute"" is meant to have immasculating undertones. In the incorrect translation, stealth is refering to the act of being stealthy/quiet/hidden. Pagnanakaw is theft. wrong translation entirely.","Closest example(s): None
+
+Overall Rating: 4
+Adequacy: 4 - The translation is mostly accurate, but ""pagnanakaw"" (stealing) is a bit too literal for ""stealth"" in this context. It implies illegal activity, which might not be the intention.
+Fluency: 4 - The sentence is grammatically correct, but ""ito ay kaibig-ibig na handa kang subukan"" sounds a little stiff. A more natural phrasing could be used.
+Lexical Choice: 3 - ""Pagnanakaw"" is not the best choice for ""stealth"" in this context. While technically correct, it carries a stronger connotation of theft than intended. ""Kaibig-ibig"" is also a bit formal; a more casual word might be better.",4
+Cheddar cheese got its name from a village in what country?,Ang nayon na pinagkuhanan ng pangalan ng cheddar cheese ay nasaang bansa?,3,"Good translation, gramatically correct, but the word choice is quite formal and doesn't reflect everyday conversations the best.","Good translation that would be understood by native speakers, but still follows the English-centric sentence structure of subject, then verb rather than vice versa.","Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+Which of the following tools is LEAST likely to be used in the process of creating a wood sculpture?,Alin sa mga sumusunod ang PINAKABIHIRANG ginagamit sa paggawa ng eskulturang kahoy?,5,Perfect translation. Sounds natural as well for a native speaker.,Accurate translation that would be used in everyday conversations.,"Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately captures the meaning of ""LEAST likely.""
+Fluency: 5 - The sentence is fluent and natural-sounding in Filipino.
+Lexical Choice: 5 - ""PINAKABIHIRANG"" is a good choice for ""LEAST likely"" in this context.",5
+"With what would you use a ""wah-wah pedal?","Ano ang gagamitin mo ng ""wah-wah pedal?",1,Incoherent sentence due to trying to match english sentence word-per-word,Wrong verb-tense which makes the sentence sound like nonsense.,"Closest example(s): Ano ang sinusukat ng amp?
+
+Overall Rating: 4
+Adequacy: 4 - The translation is understandable, but the phrasing is slightly awkward. It conveys the general idea, but could be more precise.
+Fluency: 3 - The sentence structure is a bit unnatural in Filipino. The use of ""ng"" after ""gagamitin mo"" is not entirely correct in this context.
+Lexical Choice: 5 - The individual words are appropriate.",4
+Which of the following dental topics is developmentally appropriate for toddlers?,Alin sa mga sumusunod na paksa sa ngipin ang angkop sa pag-unlad para sa mga paslit?,2,"Most of the translation is actually quite spot-on, but trying to directly translate ""dental"" to ""ngipin"" completely changes the sentence's meaning","No direct translation for dental in tagalog, so translation tries to find a related word in ""ngipin"" which means teeth. A code-switched version like ""paksang dental"" would be better.","Closest example(s):
+- ""Alin sa mga sumusunod na listahan ang naglalaman ng mga mineral lamang?""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural for the context.",5
+The Bloons are back and better than ever! Get ready for a massive 3D tower defense game designed to give you hours and hours of the best strategy gaming available.,Ang Bloons ay bumalik at mas mahusay kaysa dati! Maghanda para sa isang napakalaking 3D tower defense na laro na idinisenyo upang bigyan ka ng mga oras at oras ng pinakamahusay na diskarte sa paglalaro na magagamit.,3,"""mga oras at oras ng pinakamahusay na diskarte sa paglalaro na magagamit"" is a too literal translation, some parts would be better removed for improved clarity and flow","lexical error, “mas mahusay kaysa dati"", literal translation of ""better than ever"", lacks enthusiasm or punch.","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate for the context and target audience.",5
+"Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential pirate experience of plundering lost treasures, intense battles, vanquishing sea monsters and more. Dive in with this revised edition of the game, which includes access to digital bonus media.","Ang Sea of Thieves ay isang smash-hit na pirate adventure game, na nag-aalok ng quintessential na karanasan sa pirata ng pagnanakaw sa mga nawawalang kayamanan, matinding labanan, pagtalo sa mga halimaw sa dagat at higit pa. Sumisid sa binagong edisyon ng larong ito, na kinabibilangan ng access sa digital bonus media.",2,"unnatural phrasing; ""quintessential na karanasan sa pirata"" sound overly literal and not idiomatic in Filipino.","stiff or overly formal tone, ""binagong edisyon"" and ""kinabibilangan ng access sa digital bonus media"" feel too formal and literal","Closest example(s):
+- ""Isang online at lokal na laro ng pagtutulungan at pagtataksil para sa 4 hanggang 15 na mga manlalaro… sa kalawakan!"" - Influences the assessment of fluency and lexical choice, ensuring the sentence structure and word choices are natural and appropriate for a Filipino audience.
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the English sentence.
+Fluency: 5 - The Filipino sentence flows well and is easy to understand.
+Lexical Choice: 5 - The word choices are appropriate and natural in Filipino.",5
+"The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac's form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.","Ang The Binding of Isaac: Rebirth ay isang random na nabuong action RPG shooter na may mabibigat na elementong parang Rogue. Kasunod ni Isaac sa kanyang paglalakbay, ang mga manlalaro ay makakahanap ng mga kakaibang kayamanan na nagpabago sa anyo ni Isaac na nagbibigay sa kanya ng sobrang mga kakayahan ng tao at nagbibigay-daan sa kanya upang labanan ang napakaraming mga misteryosong nilalang, tumuklas ng mga lihim at labanan ang kanyang daan patungo sa kaligtasan.",2,"The translations are too literal; some of the terms could be preserved such as ""Rogue-like""; super human abilities was incorrectly translated to ""sobrang mga kakayahan ng tao"", instead of ""higit sa karaniwang kakayahan ng tao"", or just ""makapangyarihang kakayahan""","semantic errors and lexical errors, phrases like “labanan ang kanyang daan” and “random na nabuong” sound unnatural or awkward.","Closest example(s):
+- ""Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.""
+- ""Ikaw si Geralt ng Rivia, isang mersenaryong tagapuksa ng halimaw. Sa harap mo ay isang lupain na winasak ng digmaan at puno ng mga nilalang, malaya mong malilibot ito. Ang misyon mo? Hanapin si Ciri, ang Batang Pinili na may kapangyarihang baguhin ang mundo.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original English sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically sound.
+Lexical Choice: 5 - The word choices are appropriate and commonly used in Filipino technical contexts.",5
+"Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.","Maligayang pagdating sa isang bagong mundo! Sa Monster Hunter: World, ang pinakabagong installment sa serye, masisiyahan ka sa pinakahuling karanasan sa pangangaso, gamit ang lahat ng iyong makakaya upang manghuli ng mga halimaw sa isang bagong mundo na puno ng mga sorpresa at kaguluhan.",4,"""installment"" could be replaced with an apt filipino word (e.g., parte, bahagi, kabanata)",semantic error “Kaguluhan” (for “excitement”),"Closest example(s):
+- ""Ang Destiny 2 ay isang MMO na puno ng aksyon, may iisang mundong patuloy na umuunlad na maaaring salihan ng iyong mga kaibigan kahit kailan at saan, nang libre."" (Similar structure and tone)
+- ""Ikaw si Geralt ng Rivia, isang mersenaryong tagapuksa ng halimaw. Sa harap mo ay isang lupain na winasak ng digmaan at puno ng mga nilalang, malaya mong malilibot ito. Ang misyon mo? Hanapin si Ciri, ang Batang Pinili na may kapangyarihang baguhin ang mundo."" (Similar use of descriptive language)
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original English text.
+Fluency: 5 - The Filipino translation flows naturally and is easy to understand.
+Lexical Choice: 5 - The word choices are appropriate for the context and target audience.",5
+"For so long, you and me been finding each other for so long.","Matagal na, matagal na tayong dalawa naghahanap sa isa't isa.",2,translates you and me into tayo and the translation of finding is awkward,"You and me' was translated as 'tayo', which might not be the best fit, and the word 'finding' sounds a bit off in the translation.","Closest example(s):
+- ""Kaibigan ko siya, at sabi niya para tayo sa isa't isa.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+I can't stop smiling when you're there,Hindi ko mapigilang ngumiti tuwing andiyan ka,5,translation is accurate while sounding natural,The translation is correct and still sounds smooth and natural.,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is natural and flows well in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and common.",5
+I just want to be your everything.,Nais ko lang ay maging lahat para sa’yo,3,fairly accurate translation but structure of sentence is quite different from english meaning,"the meaning is mostly right, but the way the sentence is put together is quite different from the English version.","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally in Filipino.
+Lexical Choice: 5 - The words used are appropriate and common in Filipino.",5
+"If I give you all my life, would you still be mine?","Kung ibibigay ko sa’yo ang buong buhay ko, akin ka pa rin ba?",4,"""sa akin"" would be the most proper translation but the overall translation is quite accurate","Sa akin' might be a better choice, but overall the translation still gets the meaning across well.","Closest example(s):
+- English Sentence: I gave everything I had
+Filipino Translation: Binigay ko ang lahat
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+A stack overflow happens when there is too much memory used on the call stack.,Nangyayari ang stack overflow kapag labis ang paggamit ng memorya sa call stack.,4,"gramatically correct and serves the original meaning well, using ""labis"" makes it feel more formal compared to alternatives (eg, ""sobrang"" in this context)","	Too literal; lacks clarification of technical terms.","Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence is natural and grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and commonly used in Filipino technical contexts.",5
+The database index speeds up data retrieval by reducing the number of disk accesses.,Pinapabilis ng database index ang pagkuha ng data sa pamamagitan ng pagbawas sa pag-access sa disk.,3,"the phrase ""pagkuha ng data"" could be rewritten to ""pagkuha ng impormasyon"", and the overall phrasing is awkward","	Awkward phrasing; “pag-access sa disk” sounds unnatural.","Closest example(s):
+- ""RAM temporarily stores data that the processor uses for quick access""
+- ""Ginagamit ang SQL upang mag-query at mag-manipula ng mga relational database.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original English sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context. The use of ""data"" instead of ""datos"" is acceptable and common.",5
+The kernel handles low-level operations in the operating system.,Pinangangasiwaan ng kernel ang mga low-level na operasyon sa operating system.,2,"A lot of English terms are retained, which is somewhat acceptable in tech-related Filipino, but results in many borrowed terms. ""low-level"" could probably be translated though.","	Poor localization; relies too much on untranslated English.","Closest example(s):
+- ""Pinamamahalaan ng operating system ang mga hardware at software resource.""
+- ""Pinapayagan ng multithreading ang sabayang pagpapatakbo ng code.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and reads naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and commonly used in the context of operating systems.",5
+The address bus carries memory addresses to the CPU.,Dinadala ng address bus ang mga memory address papunta sa CPU.,3,"straightforward and generally accurate, tech-based Filipino terms/translations could be argued (eg, ""memory address"" as ""address ng memorya"")",Word-for-word; no effort to adapt terms.,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence is natural and grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and commonly used in Filipino technical contexts.",5
+Jollibee is a famous fast food restaurant in the Philippines.,Ang Jollibee ay isang sikat na kainan sa Pilipinas.,4,Better to phrase it as “Ang Jollibee ay isa sa mga sikat na kainan sa Pilipinas”,"- accurate translation
+- good grammar","Closest example(s):
+* ""Ang Balut ay isa sa mga paboritong street food sa Pilipinas."" - Influences the judgment on lexical choice due to the use of a foreign word.
+* ""Madalas ituring ang adobo bilang di-opisyal na pambansang ulam ng Pilipinas."" - Influences the judgment on overall quality as it represents a well-translated sentence.
+
+Overall Rating: 4
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 4 - While grammatically correct, using ""kainan"" instead of ""fast food restaurant"" makes it slightly less specific and common in everyday conversation. A more direct translation might be more fluent.
+Lexical Choice: 4 - ""Kainan"" is a general term for restaurant. While not incorrect, it lacks the specificity of ""fast food restaurant."" A more direct translation using ""fast food"" might be better, or a more common Filipino term for fast food restaurants.",4
+Filipinos visit their relatives during holidays.,"Tuwing bakasyon, binibisita ng mga Pilipino ang kani-kanilang mga pamilya",3,"Better to use and phrase it as “Tuwing bakasyon, binibisita ng mga Filipino ang kani-kanilang mga mahal sa buhay.” Filipino not Pilipino, and also best to use mahal sa buhay for a more deeper and authentic translation rather than using the direct translation of family (pamilya).",#NAME?,"Closest example(s):
+- ""Filipinos practice “mano po” to show respect to elders.
+Filipino Translation: Isinasagawa ng mga Pilipino ang “mano po” bilang paggalang sa nakatatanda.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence is grammatically correct and flows naturally.
+Lexical Choice: 5 - The word choices are appropriate and natural in Filipino. The use of ""kani-kanilang mga pamilya"" is a natural way to express ""their relatives"" in this context.",5
+"Filipinos often use the expression ""po"" and ""opo"" as a sign of respect to elders.",Ginagamit ng mga Pilipino ang mga salitang “po” at “opo” bilang paggalang sa mga nakakatanda. ,4,Filipino not Pilipino. Change and take note of this.,#NAME?,"Closest example(s):
+- ""Filipino Translation: Isinasagawa ng mga Pilipino ang “mano po” bilang paggalang sa nakatatanda."" (Adequacy: 5, Fluency: 5, Lexical Choice: 5) - This example demonstrates a correct and natural translation of a similar concept related to respect for elders.
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence is grammatically correct and flows naturally.
+Lexical Choice: 5 - The word choices are appropriate and natural in Filipino.",5
+"Adobo is one of the most popular dishes in the Philippines, made with soy sauce, vinegar, and garlic.","Ang Adobo ay isa sa mga pinakasikat na ulam sa Pilipinas at ito ay gawa sa toyo, suka, at bawang. ",5,Perfect translation.,"- not sure if “sa” in “gawa sa” is the right word?? but if it’s conversational it’s fine
+- kung formal i’d probably say “gawa gamit ang”","Closest example(s): Ang Balut ay isa sa mga paboritong street food sa Pilipinas.
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+The hospitability of Filipinos are known worldwide,Ang pagiging hospitable ng mga Pilipino ay kilala sa buong mundo,4,kilala could be replaced with alam which would make it sound more natural.,kilala could be replace with sikat,"Closest example(s):
+- ""Adequacy: 4 - The flawed translation is understandable but missing a key word.
+Fluency: 3 - The flawed translation is grammatically incorrect.
+Lexical Choice: 4 - The flawed translation uses mostly correct words.""
+- ""Adequacy: 2 - The flawed translation is missing key words and is difficult to understand.
+Fluency: 1 - The flawed translation is grammatically incorrect and nonsensical.
+Lexical Choice: 2 - The flawed translation uses incorrect words.""
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original English sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and natural in Filipino.",5
+We love to celebrate fiestas and gatherings with family and friends,Mahal natin ang pagdidiwang ng piyesta and salo-salo kasama ang pamilya at mga kaibigan,3,"doesnt sound natural, could be better with Mahilig tayo magdiwang ng piyesta at salo-salo kasama ng ating pamilya at mga kaibigan",salo-salo could be replaced with pagtitipon for accurate translation,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+Adobo and sinigang are just some of the delicious Filipino dishes that are truly craved.,Ang adobo at sinigang ay ilan lamang sa masasarap na pagkaing Pilipino na talaga naman hinahanap-hanap,5,"sounds natural, - is used properly for repeating worlds like hinahanap-hanap",accurate translation,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+Eating rice with almost every meal is part of out culture,Bahagi ng ating kultura ang pagkain ng kanin sa halos bawat pagkain,3,doesnt sound natural and can be ambiguous.,gramatically correct but doesn't sound natural,"Closest example(s):
+- ""English Sentence: Rice is the main staple food of the Filipinos.
+Filipino Translation: Ang kanin ang pangunahing pagkain ng mga Pilipino."" (Similar topic of rice and Filipino culture)
+- ""English Sentence: Sharing food and drinks is a big part of Filipino hospitality.
+Filipino Translation: Ang pagbabahagi ng pagkain at inumin ay isang malaking bahagi ng pagiging mapagkalinga ng mga Pilipino."" (Similar sentence structure)
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The Filipino sentence is natural, smooth, and grammatically correct.
+Lexical Choice: 5 - The word choices are contextually accurate and culturally appropriate.",5
+"The nurse inserted the IV incorrectly, causing bruising.","Ang nurse ay pinasok ang IV ng mali, kaya nagka-pasa.",2,translation feels too direct and it ended up having awkward phrasing,Direct translation. There could've been a better term.,"Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and commonly used.",5
+The patient was given penicillin to prevent infection.,Ang pasyente ay binigyan ng penicillin upang maiwasan ang impeksyon.,5,"its clear, fluent, formal, and natural, it conveys the clinical intent without making the translation sound forced","Correct translation, and it is not awkward to read as it can be comprehended easily.","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+"To be able to start fasting, you have to stop eating and drinking anything except water at least 8 hours before your test.","Para makapagsimula ng fasting, tigilan ang pagkain at pag-inom 8 oras bago ang test, tubig lang pwede.",3,"""tigilan"" is awkward in the context making the phrasing weird and casual, and ""pwede"" makes the instruction sound optional when it should be strict. ","The whole sentence sounds awkward, and the number 8 could've been translated into its word form.","Closest example(s):
+Overall Rating: 4
+Adequacy: 4 - The translation is mostly accurate, but the phrase ""tubig lang pwede"" is a bit informal and could be phrased more formally.
+Fluency: 4 - While understandable, the sentence structure is slightly choppy. A more fluent version might rephrase the last part.
+Lexical Choice: 4 - The word choices are generally appropriate, but ""pwede"" is a bit informal.",4
+"After being checked up, you have to be admitted to the hospital for observation and treatment.","Pagkatapos ng check-up, kailangang ma-admit ka sa ospital para ma-obserbahan at gamutan.",3,"translation became to literal, ""ma-admit"", ""ma-oberserbahan"", and ""check-up"" are mixed Fil-Eng and sound awkward in formal medical writing.","The sentence is a bit awkward, especially some parts of the sentence were not translated properly into its corresponding translation (code switching). ","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context. The use of ""ma-admit,"" ""ma-obserbahan,"" and ""gamutan"" are natural and common in this context.",5
+I always make it a priority to set aside time for my hobbies.,Lagi ko sinisigurado na maglaan ng oras para sa aking mga libangan.,4,translation overall has the same meaning but uses different words like sinisigurado,"translation of sentence is ""I ensure..."" rather than ""I always prioritize...""","Closest example(s):
+- ""Filipino Translation: Sulitin mo ang bawat araw na parang huling araw mo na.""
+- ""Filipino Translation: At least ako, may prinsipyo ako. Hindi ko kailangang magpanggap o magsinungaling para lang kumita ng pera.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural. ""Sinisigurado"" and ""maglaan"" are good choices in this context.",5
+One of the purposes of life is to help others without expecting anything in return.,Isa sa layunin ng buhay ay ang tumulong sa kapwa nang walang kapalit,5,translation is natural and meaning is well conveyed,correct and natural sounding translation,"Closest example(s): [None]
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+I exclusively use Spotify to listen to music such as OPM.,Sa Spotify lang ako nakikinig ng music katulad ng OPM.,4,decent translation but awkward wording,awkard phrasing,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+I have a large collection of non-fiction books that's always well-organized and clean.,Meron akong koleksyon ng mga non-fiction na libro na palagi ko sinisigurado na organisado at malinis.,3,translation is understandable but phrasing and wording can be improved on,"did not translate ""large"" and awkward translation of ""well-organized""","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural. The use of ""sinisigurado"" adds a nuance of ensuring or making sure, which is fitting.",5
+Taking crazy things seriously is a serious waste of time.,Ang pagseseryoso ng mga bagay na baliw ay isang seryosong pag-aaksaya ng oras.,5,"Captures tone and meaning well, using native-sounding phrasing without sounding forced or literal.",It uses words that flow naturally and matches the tone accurately. ,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+"Things outside you are projections of what’s inside you, and what’s inside you is a projection of what’s outside.","Ang mga bagay sa labas mo ay salamin ng nasa loob mo, at ang nasa loob mo ay salamin ng nasa labas.",3,"Accurate and clear, though some of the poetic impact is slightly reduced.",The translation replaces a complex phrase with a simpler metaphor.,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately captures the meaning of the original sentence. The use of ""salamin"" (mirror/reflection) is a good choice to convey the concept of projection.
+Fluency: 5 - The sentence flows naturally and is grammatically correct in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in the context.",5
+"Some men are born mediocre, some men achieve mediocrity, and some men have mediocrity thrust upon them.","May ilang lalaking ipinanganak na katamtaman, may ilang nakakamit ang pagiging karaniwan, at may ilan na ipinipilit na lamang sa kanila ang pagiging ganoon.",4,"It mimics the original text's rhythm until the last part, where it reads too literal.","Preserves the structure and meaning well, though katamtaman and ganoon are odd word choices.","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately captures the meaning of the original English sentence.
+Fluency: 5 - The Filipino sentence is grammatically correct and flows naturally.
+Lexical Choice: 5 - The word choices are appropriate and convey the intended meaning effectively.",5
+Mother died today. Or maybe yesterday; I can't be sure.,Sumakabilang-buhay si Inay ngayong araw. O baka kahapon; medyo nalilito na ako.,2,The tone in the translated text feels too colloquial.,Doesn't feel natural. Too literal.,"Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately captures the meaning of the original sentence. ""Sumakabilang-buhay"" is a respectful way to say ""died,"" and the rest of the sentence is also accurately translated.
+Fluency: 5 - The Filipino sentence flows naturally and is grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and culturally sensitive. ""Inay"" is a common and affectionate term for ""mother.""",5
+"The wave returns to the ocean, where it came from, and where it's supposed to be.","Bumabalik ang alon sa karagatan, kung saan ito nanggaling, at kung saan ito dapat nasa.",2,The wording feels awkward and unnatural.,"Extremely unnatural wording, especially on ""kung saan ito dapat nasa."" Despite that, it still conveys the rough meaning of the original text.","Closest example(s): None
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately reflects the meaning of the original sentence.
+Fluency: 5 - The sentence is grammatically correct and flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+Sick of tea?! That's like being sick of breathing!,Ayaw mo na ng tsaa?! Parang sinabi mo na ring sawa ka nang huminga!,5,Wording is natural and uses appropriate that properly conveys the emotion in the sentence.,Exceptionally natural translation. Even conveying the emotional surprise and colloquial tone of the original text.,"Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately captures the meaning and the exaggerated tone of the original sentence.
+Fluency: 5 - The Filipino sentence is natural, idiomatic, and grammatically correct.
+Lexical Choice: 5 - The word choices are appropriate and convey the intended meaning effectively. The use of ""Parang sinabi mo na ring"" is a good way to express ""That's like saying"".",5
+"I wanted to invite my youngest to go get some ice cream, if he’ll let me.","Gusto ko imbitahin yung pinakabata kong anak para kumuha ng ice cream, kung papayagan niya ako.",3,"Not the best translation while its mostly correct its not natural, for more casual contexts yayain is more commonly used, additionally youngest child has a word in tagalog called ""bunso"" that would be more appropriate here.","Although the meaning of the original sentence is there, the delivery is very stinted, especially on its word usage (pinakabata and imbitahin).","Closest example(s):
+- ""Gusto ko imbitahin yung pinakabata kong anak para kumuha ng ice cream, kung papayagan niya ako.""
+
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural.",5
+"That person has no more respect or love for you, leave them.","Wala nang respeto at pagmamahal yung tao para sa'yo, iwan mo na.",5,The sentence flows very well and uses more informal words used in conversation like sa'yo.,"Sounds very natural, capturing the sentiment carried by the original sentence.","Closest example(s):
+Overall Rating: 5
+Adequacy: 5 - The translation accurately conveys the meaning of the original sentence.
+Fluency: 5 - The sentence flows naturally in Filipino.
+Lexical Choice: 5 - The word choices are appropriate and natural in this context.",5

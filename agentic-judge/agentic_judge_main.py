@@ -26,7 +26,7 @@ def format_training_batches(df, batch_size):
             "2. Fluency: Is it natural, smooth, and grammatically correct to be easily understood by a native speaker?",
             "3. Lexical Choice: Are the words contextually accurate and culturally appropriate?",
             "",
-            "Please provide scores from 1-5, with 1 being the lowest and 5 being the highest, along with reasoning for each.",
+            "Please provide scores from 1-5, with 1 being the lowest and 5 being the highest, along with detailed reasoning for each that cites words or phrases that may make the translation flawed.",
             "Respond ONLY with a valid JSON array. Do not use markdown code blocks (```). Do not include any explanations, formatting, or text outside of the JSON. Start your response directly with [ and end with ]."
             "Your response must look exactly like this:",
             "[",
@@ -157,3 +157,24 @@ def clean_json_response(response_content):
     text = re.sub(r",\s*([}\]])", r"\1", text)
 
     return text.strip()
+
+
+def print_collection_records(collection, limit=5):
+    records = collection.get(
+        include=["embeddings", "documents", "metadatas"],
+        limit=limit
+    )   
+
+    for doc_id, doc_txt, meta, embed in zip(
+        records["ids"],
+        records["documents"],
+        records["metadatas"],
+        records["embeddings"],
+    ):
+        print("ID:", doc_id)
+        print("Doc:", doc_txt[:60], "…")
+        print("Meta:", meta)
+        print("Embedding size:", len(embed))
+        print("First 8 floats:", embed[:8])
+        print("—" * 40)
+
