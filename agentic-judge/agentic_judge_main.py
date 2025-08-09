@@ -143,7 +143,7 @@ def clean_json_response(response_content):
     text = response_content.strip()
 
     if response_content.strip().endswith("..."):
-        print("⚠️ Warning: Truncated response detected. Reduce batch size or prompt verbosity.")
+        print("Truncated response detected. Reduce batch size or prompt verbosity.")
 
     # Remove markdown code block fences like ```json ... ```
     if text.startswith("```json"):
@@ -153,7 +153,7 @@ def clean_json_response(response_content):
     if text.endswith("```"):
         text = re.sub(r"```$", "", text)
 
-    # Optional: remove trailing commas, which are illegal in JSON
+    # Remove trailing commas, which are illegal in JSON
     text = re.sub(r",\s*([}\]])", r"\1", text)
 
     return text.strip()
@@ -178,3 +178,12 @@ def print_collection_records(collection, limit=5):
         print("First 8 floats:", embed[:8])
         print("—" * 40)
 
+
+def parse_rating(text):
+    m = re.search(r"Rating:\s*([1-5])", text)
+    return int(m.group(1)) if m else None
+
+
+def parse_overall_rating(text):
+    m = re.search(r"Overall Rating:\s*([1-5])", text)
+    return int(m.group(1)) if m else None
