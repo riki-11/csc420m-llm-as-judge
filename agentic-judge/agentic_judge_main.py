@@ -1,8 +1,19 @@
 from langchain_core.messages import HumanMessage
+from langchain_core.tools import tool
 from tqdm import tqdm
 
+import requests
 import json
 import re
+
+@tool(description="Translate English sentences to Filipino using LibreTranslate")
+def libretranslate_en_fil(text: str) -> str:
+    """Translates a sentence in English to Tagalog."""
+    res = requests.post("http://127.0.0.1:5000/translate", json={
+        "q": text, "source": "en", "target": "tl"
+    })
+    res.raise_for_status()
+    return res.json()["translatedText"]
 
 def format_training_batches(df, batch_size):
     """
