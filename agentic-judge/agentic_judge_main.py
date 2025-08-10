@@ -191,10 +191,10 @@ def prepare_few_shot_agent_with_tools(nearest_examples, llm, tools):
     Filipino Translation: ...
 
     Similar Examples Influence: [How did the examples guide your decision?]
-    Adequacy: [1-5] - [reasoning citing specific words/phrases]
-    Fluency: [1-5] - [reasoning citing specific words/phrases]
-    Lexical Choice: [1-5] - [reasoning citing specific words/phrases]
-    Overall Rating: [1-5]
+    Adequacy: (1-5) + [reasoning citing specific words/phrases]
+    Fluency: (1-5) + [reasoning citing specific words/phrases]
+    Lexical Choice: (1-5) + [reasoning citing specific words/phrases]
+    Overall Rating: ...
     Similar Examples Influence: [How did the examples guide your decision?]
 
     Do not preamble.
