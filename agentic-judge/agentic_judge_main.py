@@ -1,10 +1,12 @@
 from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from tqdm import tqdm
+from langchain_chroma import Chroma
 
 import requests
 import json
 import re
+
 
 @tool(description="Translate English sentences to Filipino using LibreTranslate")
 def libretranslate_en_fil(text: str) -> str:
@@ -136,6 +138,29 @@ def evaluate_training_batches(batches, llm):
             })
 
     return all_evaluations
+
+
+def get_similar_examples(english_input: str, vector_store: Chroma, k: int = 3):
+    # Embed the English input
+    similar_examples = []
+    nearest_docs = vector_store.similarity_search(english_input, k=k)
+    print("Closest training examples (based on English input):")
+    for doc in nearest_docs:
+        content = doc.page_content
+        metadata = doc.metadata
+
+        print(f"- {doc.page_content}")
+        similar_examples.append(
+            f"""English Sentence: {content}\n
+                Flawed Filipino Translation: {metadata['flawed_translation']}\n
+                Correct Filipino Translation: {metadata['correct_translation']}\n
+                Adequacy [{metadata['adequacy_score']}] - {metadata['adequacy_reasoning']}\n
+                Fluency [{metadata['fluency_score']}] - {metadata['fluency_reasoning']}\n
+                Lexical Choice [{metadata['lexical_score']}] - {metadata['lexical_reasoning']}
+            """
+        )
+
+    return similar_examples
 
 
 def clean_json_response(response_content):
