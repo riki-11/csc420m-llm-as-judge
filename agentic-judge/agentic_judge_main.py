@@ -1,7 +1,10 @@
 from langchain_core.messages import HumanMessage
+from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate
 from langchain_core.tools import tool
-from tqdm import tqdm
+from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_chroma import Chroma
+from tqdm import tqdm
+
 
 import requests
 import json
@@ -144,12 +147,9 @@ def get_similar_examples(english_input: str, vector_store: Chroma, k: int = 3):
     # Embed the English input
     similar_examples = []
     nearest_docs = vector_store.similarity_search(english_input, k=k)
-    print("Closest training examples (based on English input):")
     for doc in nearest_docs:
         content = doc.page_content
         metadata = doc.metadata
-
-        print(f"- {doc.page_content}")
         similar_examples.append(
             f"""English Sentence: {content}\n
                 Flawed Filipino Translation: {metadata['flawed_translation']}\n
@@ -162,6 +162,57 @@ def get_similar_examples(english_input: str, vector_store: Chroma, k: int = 3):
 
     return similar_examples
 
+
+# Without dynamic semantic similarity search embedded within the prompt
+def prepare_few_shot_agent_with_tools(nearest_examples, llm, tools):
+    system_message = f"""
+    You are a professional translation evaluator. You must assess a Filipino translation based on:
+    - Adequacy: Does the Filipino translation preserve the meaning of the original sentence?.
+    - Fluency: Is it natural, smooth, and grammatically correct to be easily understood by a native speaker?.
+    - Lexical Choice: Are the words contextually accurate and culturally appropriate?.
+
+    Here are examples of translations and ratings to guide your evaluation:
+    {nearest_examples[0]}
+    {nearest_examples[1]}
+    {nearest_examples[2]}
+
+    For each input:
+    - First, explain how similar sentences and translations influence your judgment.
+    - Then translate the English sentence using LibreTranslate to serve as partial basis for your rating.  
+    - Then give:
+      - Adequacy rating (1-5) + detailed reasoning for your score (cite words or phrases from the translation),
+      - Fluency rating (1-5) + reasoning ,
+      - Lexical Choice rating (1-5) + reasoning.
+      - Overall rating (1-5),
+
+    All the reasonings should be detailed and should especially cite words or phrases from the translation that make the translation flawed, if applicable.
+    Output Format:
+    English Sentence: ...
+    Filipino Translation: ...
+
+    Similar Examples Influence: [How did the examples guide your decision?]
+    Adequacy: [1-5] - [reasoning citing specific words/phrases]
+    Fluency: [1-5] - [reasoning citing specific words/phrases]
+    Lexical Choice: [1-5] - [reasoning citing specific words/phrases]
+    Overall Rating: [1-5]
+    Similar Examples Influence: [How did the examples guide your decision?]
+
+    Do not preamble.
+    """
+    
+    system_prompt = SystemMessagePromptTemplate.from_template(system_message)
+
+
+    prompt = ChatPromptTemplate.from_messages([
+        system_prompt,
+        ("human", "{input}"),
+        ("placeholder", "{agent_scratchpad}")
+    ])
+
+    agent = create_tool_calling_agent(llm, tools, prompt)
+    agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True, return_intermediate_steps=True)
+
+    return agent_executor
 
 def clean_json_response(response_content):
     """
