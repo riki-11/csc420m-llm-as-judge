@@ -126,6 +126,8 @@ rich==12.6.0
 rpds-py==0.27.0
 rsa==4.9.1
 sacremoses==0.0.53
+scikit-learn==1.7.1
+scipy==1.16.1
 sentencepiece==0.2.0
 shellingham==1.5.4
 six==1.17.0
@@ -135,6 +137,7 @@ SQLAlchemy==2.0.42
 stanza==1.1.1
 sympy==1.14.0
 tenacity==9.1.2
+threadpoolctl==3.6.0
 tokenizers==0.21.4
 torch==2.2.0
 tqdm==4.67.1
