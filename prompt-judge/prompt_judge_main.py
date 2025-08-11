@@ -38,7 +38,7 @@ def load_test_set(path):
     return test_df
 
 
-def prepare_zeroshot_prompt(llm):
+def prepare_zeroshot_prompt():
     system_message = """
     You are a professional translation evaluator. You must assess a Filipino translation based on:
     - Adequacy: Does the Filipino translation preserve the meaning of the original sentence?.
